@@ -2,57 +2,80 @@
 <html>
 
 <head>
-    <title>My Landing Page</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <title>Web Agency Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <nav>
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
     <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </nav>
-
-        <h1>Welcome to My Landing Page</h1>
-
+        <h1>Web Development Agency</h1>
+        <p>We create beautiful, responsive websites that convert</p>
+        <a href="#contact">Get in touch</a>
     </header>
 
-    <section>
-        <h2>What we offer</h2>
-        <p>Here's some information about our services or product offerings.</p>
-        <a href="#">Learn More</a>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Web Design</h3>
+            <p>We create visually appealing website designs that are customized to your brand and audience.</p>
+        </div>
+        <div class="service">
+            <h3>Web Development</h3>
+            <p>Our developers bring your designs to life with clean, efficient, and scalable code.</p>
+        </div>
+        <div class="service">
+            <h3>SEO Optimization</h3>
+            <p>We optimize your website for search engines to ensure your website reaches your desired audience.</p>
+        </div>
     </section>
 
-    <section>
-        <h2>Why choose us?</h2>
-        <p>Here's some information about why we're great and why you should choose us.</p>
-        <a href="#">Learn More</a>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <img src="https://via.placeholder.com/300x200" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>Description of project 1</p>
+        </div>
+        <div class="project">
+            <img src="https://via.placeholder.com/300x200" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>Description of project 2</p>
+        </div>
+        <div class="project">
+            <img src="https://via.placeholder.com/300x200" alt="Project 3">
+            <h3>Project 3</h3>
+            <p>Description of project 3</p>
+        </div>
     </section>
 
-    <section>
+    <section id="contact">
         <h2>Contact Us</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name"><br>
+        <form action="#" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email"><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message"></textarea><br>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
 
-            <input type="submit" value="Send">
+            <button type="submit">Send</button>
         </form>
     </section>
 
     <footer>
-        <p>&copy; 2023 HashRun Development</p>
+        <p>&copy; 2021 Web Development Agency. All rights reserved.</p>
     </footer>
 
 </body>
