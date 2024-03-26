@@ -1,0 +1,106 @@
+﻿body
+{
+	margin: 100px auto 20px auto;
+	width: 1000px;
+	background: url('images/bg01.jpg') repeat;
+	font-family: Calibri;
+	height: 720px;
+	position: static;
+}
+
+.header, .header > img
+{
+    width: 953px;
+    height: 150px;
+    border-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+	
+}
+
+
+.sub-heading
+{
+	width: 660px;
+	font-size: 24px;
+	padding: 0px 0px 0px 0px;
+	background-color: #517DB2;
+	color: #F5F5F5;
+	text-indent: 15px;
+}
+
+
+
+.content > div
+{
+	display: inline-block;
+	padding: 15px;
+	min-height: 0;
+	height: 1000px;
+	bottom: -200px;
+}
+
+.left-col
+{
+	width: 660px;
+	background: #FFF;
+	float: left;
+	font-size: 19px;
+	color: #666;
+	height: 423px;
+}
+.right-col
+{
+	background-position: #F3F3F3;
+	width: 340px;
+	background: #F3F3F3;
+	line-height: normal;
+    font-style: normal;
+	height: 423px;
+    border-top-right-radius: 15px;
+}
+
+.address
+{
+    font-size: 14px;
+    color: #666;
+    font-style: normal;
+    border-bottom: 1px inset #CCC;
+    margin-bottom: 20px;
+    padding:15px;
+}
+
+.menu-verticle
+{
+    list-style: none;
+    padding-left: 10px;
+}
+
+    .menu-verticle li
+    {
+        margin-top: 10px;
+    }
+
+        .menu-verticle li a
+        {
+            text-decoration: none;
+            font-size: 18px;
+            font-style: normal;
+            color: #666;
+        }
+
+            .menu-verticle li a:hover
+            {
+                color: #000;
+                transition: all 1s ease;
+            }
+
+            footer {
+                background-color: #000000;
+                color: #666;
+                padding: 20px;
+                text-align: left;
+                font-size: 20px;
+                width: 953px;
+            }
+            
